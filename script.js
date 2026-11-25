@@ -14,3 +14,7 @@ function calculate(operation) {
         result = num1 / num2;}
 
     document.getElementById("result").textContent = "Результат: " + result;}
+function clearCalculator() {
+    document.getElementById('num1').value = '';
+    document.getElementById('num2').value = '';
+    document.getElementById('result').textContent = 'Результат: ';}
